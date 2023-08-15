@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  background-color: rgb(216, 220, 223);
+}
+#main-container {
+
+  background-color: white;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-family: "karla", sans-serif;
+  width: 800px;
+  margin: 20rem;
+  overflow: hidden;
+}
+#intro{
+    padding: 2rem;
+}
+#section {
+    display: flex;
+    align-items: center;
+}
+#first-heading {
+  color: hsl(179, 62%, 43%);
+}
+#second-heading {
+  color: hsl(71, 73%, 54%);
+}
+#third-writing {
+  color: hsl(203, 15%, 72%);
+}
+.flex-container {
+  display: flex;
+  color: white;
+  
+}
+#div1 {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2rem;
+  flex: 1;
+}
+#div2 {
+  background-color: #4abebd;
+  padding: 2rem;
+  flex: 1;
+}
+ul {
+  list-style-type: none;
+  line-height: 1.5rem;
+  padding: 0rem;
+  color: hsla(240, 3%, 94%, 0.827);
+}
+
+#click {
+  background-color: hsl(71, 73%, 54%);
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  border-style: none;
+  color: white;
+  align-items: end;
+  box-shadow: 0.1rem 0.1rem  rgb(60, 143, 140);
+  font-family:"karla", sans-serif ;
+  font-size: 1.2rem
+}
+#dolar {
+  font-size: 2.5rem;
+}
+#month {
+  color: hsla(203, 44%, 93%, 0.395);
+  margin-left: 0.5rem;
+}
+@media only screen and (max-width: 375px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
