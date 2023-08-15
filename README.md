@@ -5,3 +5,4 @@ I started off my downloading the zip folder containing the style guide and other
 what did i struggle with?
 1. Creatign a Mobile view of the page. i eventually used the style guide and media query.
 2. Uisng a flex container.
+I think that's all i struggled with.g
